@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFlow - Smart Waste Management</title>
+    
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Internal CSS for styling -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        #nav-bar {
+            position: sticky;
+            top: 0;
+            z-index: 15;
+        }
+        .navbar {
+            background-image: linear-gradient(to right, #efe2e2, #e5f0e5);
+        }
+        #hero {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        #recycle {
+            border-radius: 10px;
+        }
+        #three-rs {
+            padding: 60px 0;
+        }
+        .text-success {
+            color: #3cc80d !important;
+        }
+        #end-to-end {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+    </style>
+
+    <!-- Link to Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="EcoFlow Logo" style="height: 40px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reduce.html">Reduce</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reuse.html">Reuse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recycle.html">Recycle</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section id="hero" style="background-image: url('img.jpg');">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4"><b>Smart Waste Management Solutions</b></h1>
+                    <p>By developing & deploying resilient hardware and beautiful software, we empower cities, businesses, and countries to manage waste smarter.</p>
+                    <a href="#" class="btn btn-success">Contact Us</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="recycle.jpg" alt="Smart Waste Solutions" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="three-rs" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <center>
+                        <h3 class="text-success">Reduce</h3><br>
+                        <a href="reduce.html" class="btn btn-success">Learn More</a>
+                    </center>
+                </div>
+                <div class="col-sm">
+                    <center>
+                        <h3 class="text-success">Reuse</h3><br>
+                        <a href="reuse.html" class="btn btn-success">Learn More</a>
+                    </center>
+                </div>
+                <div class="col-sm">
+                    <center>
+                        <h3 class="text-success">Recycle</h3><br>
+                        <a href="recycle.html" class="btn btn-success">Learn More</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="end-to-end" style="background-image: url('dust.jpg');">
+        <div class="container text-center text-white">
+            <h2><b>End-to-end Smart Waste Management Solutions</b></h2>
+            <p>We provide enterprise-grade smart waste management solutions that support the digital transformation of waste management to achieve efficiency, transparency, and sustainability.</p>
+        </div>
+    </section>
+</body>
+</html>
